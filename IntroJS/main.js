@@ -19,6 +19,7 @@
 // let number1 = 100
 // let number2 = 20
 
+// Operadores aritmeticos
 // console.log( number1 + number2)
 // console.log( number1 - number2)
 // console.log( number1 * number2)
