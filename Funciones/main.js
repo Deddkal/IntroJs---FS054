@@ -50,6 +50,7 @@
 
 let nombre = "   Martin  "
 
+// Metodos de String
 console.log(nombre.trim())
 console.log(nombre.toLowerCase())
 console.log(nombre.toUpperCase())
