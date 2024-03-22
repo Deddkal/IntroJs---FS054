@@ -97,4 +97,5 @@ console.log(listaDeNombres.join( " " ))
 
 let nombre = "martin"
 
+nombre += " hola"
 console.log(nombre.toLowerCase().toUpperCase())
