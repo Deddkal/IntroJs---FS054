@@ -69,10 +69,91 @@
 
 
 
-let array = []
+// let array = []
 
-for (let index = 0; index < 5; index++) {
+// for (let index = 0 ; index < 5 ; index-- ) {
     
-    array.push(parseInt(prompt("Ingrese un numero")))
+//     array.push(parseInt(prompt("Ingrese un numero")))
     
-}
+// }
+
+/* 
+
+for i = Ejecuta el bucle hasta cumplir la condicion dependiendo del contador
+
+for of = Se utiliza para Arrays, String. Que sea iterable. Y en cada iteracion va tomando un valor de la iteracion actual
+
+for in = Se utiliza para objetos.
+
+*/
+
+// let numero = 10
+
+// numero = numero + 20
+
+// numero += 20
+
+/* 
+
+while = Ejecuta un bucle, mientras la condicion sea verdadera. Lo primero que hace es analizar la condicion
+    
+    while(condicion){
+        y si se cumple la condicion ejecuta esto
+    }
+
+do - while = Ejecuta un bucle, mientras la condicion sea verdadera. Se ejecuta por lo menos una vez
+    
+    do {
+        Ejecuta una vez y luego verifica la condicion
+    } while (condition);
+
+*/
+
+// let num = "asdasa"
+
+// for (const iterator of num) {
+//     console.log(iterator)
+// }
+
+// console.log( (num < 1 || num > 3) )
+
+// let contador = 0
+// do{
+
+//     num = parseInt(prompt("Ingrese un numero entre 1 y 3"))
+
+//     contador++
+//     console.log(contador)
+//     // if( contador == 3){
+//     //     alert("Aprende a leer")
+//     //     num = 1
+//     // }
+
+// } while(!(num == 1 || num== 2 || num ==3))
+
+// let nombreCompleto = "Martin Araolaza"
+
+// let array = nombreCompleto.split( " " )
+
+// let contienePalabra = nombreCompleto.toLowerCase().includes("mar")
+
+// String slice
+
+// Arrays splice
+
+// console.log(array)
+
+// console.log(nombreCompleto.endsWith("azad"))
+
+// console.log(Math.random() )
+
+// let tirarDados = Math.random()
+
+// console.log(Math.ceil( tirarDados * 6 ))
+
+let num = 0.2
+
+console.log(Math.round(num))
+console.log(Math.floor(num))
+console.log(Math.ceil(num))
+
