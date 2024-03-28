@@ -135,3 +135,14 @@ let array = [ 10 , 50 , 20 , 8, 4 , 900.50 , 900.48, 900.52 , -100 ]
 let arrayNombres = [ "Pepe", "Jose", "Maria"]
 
 console.log( arrayNombres.reduce(( acumulador, valorActual) => acumulador + " " +valorActual, "Bienvenidos" ))
+
+// let fn = ( elemento, indice ) => {
+//     console.log(elemento)
+//     console.log(indice)
+    
+// }
+
+let fn = elemento  => elemento.esImportada
+
+
+console.log(frutas.filter( (e) => e.esImportada))

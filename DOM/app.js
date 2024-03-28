@@ -1,11 +1,13 @@
 
 let contenedor = document.getElementById("conteiner")
 
-const personajes = []
+const personajes = data.results.map( elemento => elemento)
 
-for (const iterator of data.results) {
-    personajes.push(iterator)
-}
+// for (const iterator of data.results) {
+//     personajes.push(iterator)
+// }
+
+
 
 let createCard = function( objeto ){
     return `
