@@ -44,4 +44,14 @@ let renderizarCards = ( array, contenedor ) => contenedor.innerHTML = array.map(
 contenedor.innerHTML = renderizarCards( filtrarPersonajesPorKI(personajes) , template )
 
 
+let suma = function (num1, num2 ) {
+    return num1 + num2
+}
+
+let suma2 = (num1, num2) => num1 + num2
+
+// lambda 
+
+// array.map ( (e) -> e * 2  )
+
 

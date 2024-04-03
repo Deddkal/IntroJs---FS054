@@ -136,13 +136,15 @@ let arrayNombres = [ "Pepe", "Jose", "Maria"]
 
 console.log( arrayNombres.reduce(( acumulador, valorActual) => acumulador + " " +valorActual, "Bienvenidos" ))
 
-// let fn = ( elemento, indice ) => {
-//     console.log(elemento)
-//     console.log(indice)
+let fn = ( elemento, indice ) => {
+    console.log(elemento.name)
+    console.log(indice)
     
-// }
+}
 
-let fn = elemento  => elemento.esImportada
+arrayNombres.forEach( fn )
+
+// let fn = elemento  => elemento.esImportada
 
 
-console.log(frutas.filter( (e) => e.esImportada))
+// console.log(frutas.filter( (e) => e.esImportada))
